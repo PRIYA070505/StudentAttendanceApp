@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Student Attendance App"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter student name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/rollInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter roll number"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/presentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mark Present" />
+
+        <Button
+            android:id="@+id/absentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mark Absent" />
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear Input" />
+
+        <TextView
+            android:id="@+id/countView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Present: 0 | Absent: 0 | Total: 0"
+            android:textSize="16sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance Records"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/recordsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No records yet."
+            android:textSize="16sp"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</ScrollView>
+
